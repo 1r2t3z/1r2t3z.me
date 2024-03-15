@@ -13,14 +13,14 @@ interface Props {
 
 const ProjectCard = ({ src, title, description, link, showlink }: Props) => {
   return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
+    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] w-1/3">
       <div className="flex flex-row items-center justify-center text-center">
         <Image
           src={src}
           alt={title}
           width={500}
           height={500}
-          className="h-[250px] w-auto object-center object-cover"
+          className="h-[300px] w-auto object-center object-cover"
         />
       </div>
 
@@ -35,18 +35,20 @@ const ProjectCard = ({ src, title, description, link, showlink }: Props) => {
                 rel="noreferrer"
                 className="cursor-pointer flex flex-row items-center justify-center text-center w-full "
               >
+                {" "}
+                {showlink}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6 "
+                  className="w-5 h-5 ml-1 transition-transform duration-200"
                 >
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
                   />
                 </svg>
               </a>

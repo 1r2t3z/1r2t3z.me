@@ -18,7 +18,7 @@ const Encryption = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center translate-y-[-200px] absolute z-[20] w-auto h-auto">
+      <div className="flex flex-col items-center justify-center translate-y-[-150px] absolute z-[20] w-auto h-auto">
         <EvervaultCard />
         <div className="Welcome-box px-[15px] py-[4px] z-[20] brder my-[20px] border-[#7042f88b] opacity-[0.9] flex items-center justify-center">
           <h1 className="Welcome-text text-[12px]">

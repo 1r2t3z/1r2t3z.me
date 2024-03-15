@@ -55,6 +55,7 @@ const Footer = () => {
             <div className="mb-[20px] text-[15px] text-center">
               All rights reserved
             </div>
+            <div className="mb-[20px] text-[15px] text-center">🇨🇿 | 🇳🇴</div>
           </div>
         </div>
       </div>

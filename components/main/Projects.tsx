@@ -10,9 +10,9 @@ const Projects = () => {
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         My Projects:
       </h1>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 items-center justify-center">
         <ProjectCard
-          src="/NextWebsite.png"
+          src="/najdupraxi.png"
           title="NajduPraxi"
           description="Having hard time finding an internship? NajduPraxi is here to help everyone find the best internship with no stress!"
           link="https://najdupraxi.cz"
@@ -24,13 +24,6 @@ const Projects = () => {
           description="Small team of people who are developing software and hardware that is helping people in challenging environments and everyday life."
           link="https://the-axis.eu"
           showlink="the-axis.eu"
-        />
-        <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Coming Soon"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          link="#"
-          showlink="Coming Soon"
         />
       </div>
     </div>
