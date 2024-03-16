@@ -1,8 +1,6 @@
-import { Socials } from "@/constants";
 import Image from "next/image";
 import profilePic from "@/public/1r2t3z.jpg";
 import React, { useState, useEffect } from "react";
-import ResText from "@/components/sub/ResText";
 
 const Navbar = () => {
   return (
@@ -30,7 +28,10 @@ const Navbar = () => {
         <div className="md:w-[250px] lg:w-[500px] h-full flex flex-row items-center justify-between lg:mr-20">
           <div className="h-auto text-sm justify-between w-full border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
             <div className="font-extrabold  [text-wrap:balance] bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 to-50% to-slate-200 text-center">
-              <ResText />{" "}
+              <p className="hidden lg:inline">
+                Trusted by the most innovative minds in
+              </p>
+              <p className="inline lg:hidden">Trusted in </p>{" "}
               <span className="text-indigo-500 inline-flex flex-col h-[calc(theme(fontSize.sm)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.sm)*theme(lineHeight.tight))] overflow-hidden">
                 <ul className="block animate-text-slide text-left leading-tight [&_li]:block">
                   <li>Finance</li>
