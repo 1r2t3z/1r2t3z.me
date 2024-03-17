@@ -27,7 +27,7 @@ const ProjectCard = ({ src, title, description, link, showlink }: Props) => {
       <div className="relative p-5 ">
         <div>
           <div className="flex justify-between">
-            <h1 className="text-2xl font-semibold text-white mr-1">{title}</h1>
+            <h2 className="text-2xl font-semibold text-white mr-1">{title}</h2>
             <div className="border-2 border-white p-1 rounded-md flex flex-row items-center justify-center text-center text-white hover:bg-white hover:text-black transition-all duration-300 ease-in-out">
               <a
                 href={link}

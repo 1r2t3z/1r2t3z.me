@@ -21,9 +21,9 @@ const Encryption = () => {
       <div className="flex flex-col items-center justify-center translate-y-[-150px] absolute z-[20] w-auto h-auto">
         <EvervaultCard />
         <div className="Welcome-box px-[15px] py-[4px] z-[20] border my-[20px] border-[#7042f88b] opacity-[0.9] flex items-center justify-center">
-          <h1 className="Welcome-text text-[12px]">
+          <h2 className="Welcome-text text-[12px]">
             For 1r2t3z every information is a secret
-          </h1>
+          </h2>
         </div>
       </div>
     </div>

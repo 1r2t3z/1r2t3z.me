@@ -30,7 +30,7 @@ const SkillText = () => {
           />
         </svg>
 
-        <h1 className="Welcome-text text-[13px]">Your dreams, my goals.</h1>
+        <h2 className="Welcome-text text-[13px]">Your dreams, my goals.</h2>
       </motion.div>
       <motion.div
         variants={slideInFromLeft(0.5)}

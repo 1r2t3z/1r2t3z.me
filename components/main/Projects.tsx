@@ -78,9 +78,9 @@ const Projects = () => {
           </p>
         </div>
       </div>
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+      <h2 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         1r2t3z is in:
-      </h1>
+      </h2>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 items-center justify-center">
         <ProjectCard
           src="/najdupraxi.png"
@@ -97,9 +97,9 @@ const Projects = () => {
           showlink="the-axis.eu"
         />
       </div>
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+      <h2 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         1r2t3z&apos;s projects:
-      </h1>
+      </h2>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 items-center justify-center">
         <i className="text-white">Coming soon...</i>
       </div>
