@@ -55,7 +55,13 @@ const Footer = () => {
             <div className="mb-[20px] text-[15px] text-center">
               All rights reserved
             </div>
-            <div className="mb-[20px] text-[15px] text-center">🇨🇿 | 🇳🇴</div>
+            <div className="mb-[20px] text-[15px] text-center">
+              Powered by{" "}
+              <a href="https://the-axis.eu" target="_blank">
+                The-Axis
+              </a>{" "}
+              🇳🇴
+            </div>
           </div>
         </div>
       </div>

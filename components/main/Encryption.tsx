@@ -22,7 +22,7 @@ const Encryption = () => {
         <EvervaultCard />
         <div className="Welcome-box px-[15px] py-[4px] z-[20] border my-[20px] border-[#7042f88b] opacity-[0.9] flex items-center justify-center">
           <h1 className="Welcome-text text-[12px]">
-            Handling every information as a secret
+            For 1r2t3z every information is a secret
           </h1>
         </div>
       </div>

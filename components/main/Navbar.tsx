@@ -13,7 +13,7 @@ const Navbar = () => {
           <div className="h-[40px] w-[40px] rounded-full bg-[#7042f861] border-opacity-65 flex items-center justify-center shadow-[0_0_5px_5px_#7042f861] hover:shadow-[0_0_5px_7px_#7042f880] transition ease-in-out 300">
             <Image
               src={profilePic}
-              alt="logo"
+              alt="1r2t3z's profile picture"
               width={45}
               height={45}
               className="cursor-pointer rounded-full "
@@ -48,7 +48,12 @@ const Navbar = () => {
 
         <div className="hidden md:flex md:flex-row md:gap-5 ">
           <a href="#" target="_blank" rel="noreferrer">
-            <Image src="/discord.svg" alt="discord" width={30} height={30} />
+            <Image
+              src="/discord.svg"
+              alt="1r2t3z's discord"
+              width={30}
+              height={30}
+            />
           </a>
           <a
             href="https://instagram.com/1r2t3z?igsh=MW4xZ2Jja3dsYWUNA=="
@@ -57,7 +62,7 @@ const Navbar = () => {
           >
             <Image
               src="/instagram.svg"
-              alt="instagram"
+              alt="1r2t3z's instagram"
               width={30}
               height={30}
             />
