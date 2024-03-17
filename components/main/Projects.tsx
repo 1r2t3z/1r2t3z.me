@@ -8,7 +8,7 @@ const Projects = () => {
       id="projects"
     >
       <div className="z-[20]  px-[5px] flex justify-center items-center">
-        <div className="cursive text-[20px] font-medium text-center text-gray-300 lg:w-1/2 ">
+        <div className="cursive text-[20px] font-medium text-center text-gray-300 lg:w-1/2 sm:mx-16 md:mx-16 lg:my-0">
           <p>
             Once upon a time in the bustling digital landscape, there lived a
             visionary student named Karel. With dreams bigger than the vast web
@@ -77,7 +77,7 @@ const Projects = () => {
         </div>
       </div>
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
-        My Projects:
+        I am in:
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 items-center justify-center">
         <ProjectCard
@@ -94,6 +94,12 @@ const Projects = () => {
           link="https://the-axis.eu"
           showlink="the-axis.eu"
         />
+      </div>
+      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+        My projects:
+      </h1>
+      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 items-center justify-center">
+        <i className="text-white">Coming soon...</i>
       </div>
     </div>
   );
