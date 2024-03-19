@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://1r2t3z.me/.xml/
