@@ -2,6 +2,7 @@ import React from "react";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import { Button } from "@/components/sub/HeroButton";
+import Link from "next/link";
 
 const HeroContent = () => {
   return (
@@ -29,7 +30,7 @@ const HeroContent = () => {
           I&apos;m a FullStack Web and mobile App developer focused mainly on
           front-end, UI/UX and bringing my dreams to life.
         </p>
-        <a href="#skills">
+        <Link href="#skills">
           <Button className="group py-3 px-0 text-center text-white cursor-pointer rounded-lg max-w-[400px] text-base">
             Learn More{" "}
             <svg
@@ -47,7 +48,7 @@ const HeroContent = () => {
               />
             </svg>
           </Button>
-        </a>
+        </Link>
       </div>
 
       <div className="w-full h-full flex justify-center items-center">

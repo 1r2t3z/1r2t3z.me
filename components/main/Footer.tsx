@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import {
   RxDiscordLogo,
   RxGithubLogo,
@@ -16,27 +17,27 @@ const Footer = () => {
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Socials</div>
-            <a
+            <Link
               href="https://instagram.com/1r2t3z?igsh=MW4xZ2Jja3dsYWUNA=="
               className="flex flex-row items-center my-[15px] cursor-pointer"
             >
               <RxInstagramLogo />
               <span className="text-[15px] ml-[6px]">Instagram</span>
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://github.com/1r2t3z"
               className="flex flex-row items-center my-[15px] cursor-pointer"
             >
               <RxGithubLogo />
               <span className="text-[15px] ml-[6px]">Github</span>
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="flex flex-row items-center my-[15px] cursor-pointer"
             >
               <FaDiscord />
               <span className="text-[15px] ml-[6px]">Discord</span>
-            </a>
+            </Link>
           </div>
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Contact me</div>
@@ -57,9 +58,9 @@ const Footer = () => {
             </div>
             <div className="mb-[20px] text-[15px] text-center">
               Powered by{" "}
-              <a href="https://the-axis.eu" target="_blank">
+              <Link href="https://the-axis.eu" target="_blank">
                 The-Axis
-              </a>{" "}
+              </Link>{" "}
               🇳🇴
             </div>
           </div>

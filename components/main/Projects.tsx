@@ -10,7 +10,7 @@ const Projects = () => {
       <div className="z-[20]  px-[5px] flex justify-center items-center">
         <div className="cursive text-[20px] font-medium text-center text-gray-300 lg:w-1/2 sm:mx-16 md:mx-16 lg:my-0">
           <h2 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
-            1r2t3&apos;s story:
+            1r2t3z&apos;s story:
           </h2>
           <p>
             Once upon a time in the bustling digital landscape, there lived a

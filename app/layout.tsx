@@ -9,9 +9,9 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "1r2t3z's Life",
+  title: "1r2t3z's Life | Home",
   description:
-    "Welcome to 1r2t3z's official developer website! This is where you can find his thoughts, experiences, and projects. Check out his links and explore his projects!",
+    "Welcome to 1r2t3z's official website! This is where you can find his thoughts, and projects. Check out his links and explore his projects!",
 };
 
 export default function RootLayout({
@@ -21,17 +21,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <link rel="canonical" href="https://1r2t3z.me/"></link>
-      <meta
-        name="keywords"
-        content="1r2t3z, 1r2t3z's, web, developer, entrepreneur, the-axis"
-      />
-      <meta property="og:title" content="1r2t3z's Life" />
-      <meta
-        property="og:description"
-        content="Welcome to 1r2t3z's official developer website! This is where you can find his thoughts, experiences, and projects. Check out his links and explore his projects!"
-      />
-      <meta property="og:image" content="@/app/favicon.ico" />
       <body
         className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
       >
