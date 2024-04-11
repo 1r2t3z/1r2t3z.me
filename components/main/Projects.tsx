@@ -91,10 +91,10 @@ const Projects = () => {
         />
         <ProjectCard
           src="/AxisLogo.png"
-          title="The-Axis"
-          description="Small team of people who are developing software and hardware that is helping people in challenging environments and everyday life."
-          link="https://the-axis.eu"
-          showlink="the-axis.eu"
+          title="The-Axyz"
+          description="Small team of people who are developing mainly software with a bit of hardware that is helping people in challenging environments and everyday life."
+          link="https://the-a.xyz"
+          showlink="the-a.xyz"
         />
       </div>
       <h2 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
