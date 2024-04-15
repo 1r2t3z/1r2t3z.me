@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Personal Portfolio 💼
+
+Welcome to my personal portfolio website, a dynamic platform showcasing my projects, skills, and experiences. This project is built using React, TypeScript, Next.js, and Tailwind CSS, creating a seamless and responsive user experience.
+
+## Features 📸
+
+- **React**: Utilizes React for building a fast, interactive user interface.
+- **TypeScript**: Ensures type safety and enhances development experience with static type checking.
+- **Next.js**: Leverages Next.js for server-side rendering and static site generation, enabling improved performance and SEO.
+- **Tailwind CSS**: Implements Tailwind CSS for a highly customizable and responsive design without leaving the HTML.
+
+## Live Demo 👀
+
+Check out the live version here: [1r2t3z.me](https://1r2t3z.me)
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+Ensure you have the following installed:
+- Node.js
+- npm
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install npm@latest -g
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repo
+```bash
+git clone https://github.com/your_username_/Portfolio.git
+```
+2. Install NPM packages
+```bash
+npm install
+```
+3. Start the development server
+```bash
+npm run dev
+```
+or
+```bash
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Usage
 
-## Learn More
+This portfolio website is a personal project to showcase my development projects, skills, and experiences. Feel free to explore the projects and learn more about what I do.
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing 🔗
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+If any please contact me or dm me.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License 🫡
 
-## Deploy on Vercel
+Distributed under the MIT License. See `LICENSE` for more information.
+Please, don't steal the whole code. Just inspire or take parts of the code. Honestly, that is what are we all doing.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contact 👋🏻
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Your Name - [@your_twitter](https://twitter.com/your_twitter)
+
+Project Link: [https://github.com/your_username_/Portfolio](https://github.com/your_username_/Portfolio)
+
+## Acknowledgements
+
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
