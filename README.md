@@ -31,7 +31,7 @@ npm install npm@latest -g
 
 1. Clone the repo
 ```bash
-git clone https://github.com/your_username_/Portfolio.git
+git clone https://github.com/1r2t3z/1r2t3z.me.git
 ```
 2. Install NPM packages
 ```bash
@@ -62,9 +62,9 @@ Please, don't steal the whole code. Just inspire or take parts of the code. Hone
 
 ## Contact 👋🏻
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter)
+Discord/Ig - @1r2t3z
 
-Project Link: [https://github.com/your_username_/Portfolio](https://github.com/your_username_/Portfolio)
+Matrix: @1r2t3z:matrix.org
 
 ## Acknowledgements
 
